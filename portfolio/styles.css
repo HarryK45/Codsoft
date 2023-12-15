@@ -1,0 +1,226 @@
+
+body {
+  font-family: 'Signika Negative', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+    color: #00BCD4;
+  }
+  
+  header {
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #333;
+    color: #FFEB3B;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    font-family: 'Kalnia', serif;
+    list-style-type: none;
+    margin: 22px;
+    padding: 23px;
+    font-size: 21px;
+}
+
+
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #f53bff;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+  }
+  
+  nav ul li a:hover {
+    color: #f8f7f3; 
+  }
+  
+  main {
+    padding: 20px;
+    font-family: 'Kalnia', serif;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+  }
+  
+  section:hover {
+    background-color: #f0f0f0; 
+    transform: scale(1.02); 
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  
+  #home h1:hover {
+    color: #ffcc00; 
+  }
+ 
+#about {
+    background: linear-gradient(rgb(0, 0, 0), rgb(51, 51, 51));
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+  
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    align-content: center;
+}
+  
+  .bio {
+    flex: 1;
+    margin-right: 20px;
+    font-family: 'Kalnia', serif;
+  }
+  
+  .bio h3 {
+    color: #00BCD4;
+    margin-bottom: 10px;
+
+  }
+  
+  .bio p {
+    color: #00BCD4;
+  }
+  
+  .profile-picture {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; 
+  }
+  
+  .profile-picture img {
+    width: 200px; 
+    border-radius: 50%; 
+  }
+  
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .skills-list li:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  .project {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; 
+    font-family: 'Kalnia', serif;
+  }
+  
+  .project:hover {
+    transform: scale(1.02); 
+  }
+  
+  .project img {
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease; 
+  }
+  
+  .project img:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  .resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .resume-button:hover {
+    background-color: #23527c; 
+  }
+ 
+#home {
+    background: linear-gradient(to bottom, #000000, #333333); 
+  }
+  
+  #about {
+    background: linear-gradient(to bottom, #000000, #333333); 
+  }
+  
+  #skills {
+    background: linear-gradient(to bottom, #000000, #333333); 
+  }
+  
+  #projects {
+    background: linear-gradient(to bottom, #000000, #333333); 
+  }
+  
+  #resume {
+    background: linear-gradient(to bottom, #000000, #333333); 
+  }
+  
+  #contact {
+    background: linear-gradient(to bottom, #000000, #333333); 
+  }
+  
+  
+  section h2,
+  section p,
+  section a {
+    color: #fff;
+  }
+  button {
+    font-family: 'Kalnia', serif;
+
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  #contact p{
+    color: #00BCD4;
+  }
+  
+  
+ 
+  
